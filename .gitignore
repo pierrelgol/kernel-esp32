@@ -1,0 +1,41 @@
+# Zig build artifacts
+zig-cache/
+zig-out/
+
+# Object files and binaries
+*.o
+*.elf
+*.bin
+*.map
+*.hex
+
+# Logs and monitor sessions
+*.log
+*.trace
+*.dump
+
+# Core dumps or crashes
+core
+*.core
+
+# Editor/IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python virtual environments
+.venv/
+__pycache__/
+*.pyc
+
+# Build system files
+build/
+*.d
+
+# Firmware tool outputs
+*.img
+*.flash
+*.bootloader
+
