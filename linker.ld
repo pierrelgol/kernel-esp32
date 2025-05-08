@@ -16,8 +16,12 @@ SECTIONS
   .text : ALIGN(4)
   {
     *(.text*)
-    *(.rodata*)
   } > IRAM
+
+  .rodata : ALIGN(4)
+  {
+    *(.rodata*)
+  } > DRAM
 
   .data : ALIGN(4)
   {
